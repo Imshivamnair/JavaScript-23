@@ -15,6 +15,7 @@ const memoizAddition = () => {
     }
   };
 };
+
 // returned function from memoizAddition
 const addition = memoizAddition();
 console.log(addition(20)); //output: 40 calculated
